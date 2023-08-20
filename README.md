@@ -1,4 +1,4 @@
-# WTG demo/test site
+# Demo/test site for Wild Tech 'Garden' (WTG) modules
 
 Demo/test site for Wild Tech 'Garden' modules and themes
 
@@ -18,4 +18,6 @@ TBD
 
 ## Colophon
 
-* [Copyright and licensing](LICENSE)
+Copyright © 2023 Wild Tech 'Garden'  
+[Released under a Creative Commons Attribution-ShareAlike 4.0
+International license](LICENSE)

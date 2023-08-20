@@ -6,12 +6,10 @@ author = "Daniel F. Dickinson"
 tags = []
 description = """\
 Documentation of the various modules demonstrated on this site. Includes the \
-module's README, license information, and other information.
-\
+module's README, license, and other information.\
 """
 summary = """\
 Documentation of the various modules demonstrated on this site. Includes the \
-module's README, license information, and other information.
-\
+module's README, license, and other information.\
 """
 +++
