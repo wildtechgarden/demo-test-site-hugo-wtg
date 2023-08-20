@@ -1,6 +1,5 @@
 {
 	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
-	"allowCompoundWords": true,
 	"dictionaries": [
 		"project-words",
 		"project-words-fr"
@@ -24,7 +23,7 @@
 		"./LICENSE",
 		"./package.json",
 		"./package-lock.json",
-		"./tests/scripts",
+		"./.pre-commit-config.yaml",
 		"./words-*.txt",
 		"_vendor"
 	],
@@ -37,6 +36,39 @@
 	"language": "en,en-gb,en-us",
 	"overrides": [
 		{
+			"dictionaries": [
+				"companies",
+				"html",
+				"css",
+				"softwareTerms",
+				"misc"
+			],
+			"filename": [
+				"./layouts/**/*.html",
+				"./layouts/*.html",
+				"hugo.toml",
+				"config.toml"
+			]
+		},
+		{
+			"dictionaries": [
+				"companies",
+				"html",
+				"css",
+				"softwareTerms",
+				"misc"
+			],
+			"filename": [
+				"./assets/**/*.{css,scss}",
+				"./assets/*.{css,scss}"
+			]
+		},
+		{
+			"dictionaries": [
+				"companies",
+				"softwareTerms",
+				"misc"
+			],
 			"filename": [
 				"./content/fr/*.md",
 				"./content/fr/**/*.md",
@@ -60,12 +92,59 @@
 		},
 		{
 			"dictionaries": [
+				"companies",
+				"softwareTerms",
+				"misc"
+			],
+			"filename": [
+				"./content/en/*.md",
+				"./content/en/**/*.md",
+				"./README.md"
+			],
+			"ignoreRegExpList": [
+				"frontMatter"
+			],
+			"language": "en,en-gb"
+		},
+		{
+			"filename": [
+				"./content/fr/*.md",
+				"./content/fr/**/*.md",
+				"./README.fr.md"
+			],
+			"includeRegExpList": [
+				"frontMatter"
+			],
+			"language": "en,en-gb,fr,fr-90"
+		},
+		{
+			"dictionaries": [
 				"css",
 				"html"
 			],
 			"filename": [
 				".htmlvalidate*.json"
 			]
+		},
+		{
+			"dictionaries": [
+				"bash",
+				"softwareTerms"
+			],
+			"filename": [
+				"./tests/scripts/*.sh"
+			],
+			"language": "en,en-gb"
+		},
+		{
+			"dictionaries": [
+				"powershell",
+				"softwareTerms"
+			],
+			"filename": [
+				"./tests/scripts/*.ps1"
+			],
+			"language": "en,en-gb"
 		},
 		{
 			"dictionaries": [
