@@ -4,7 +4,8 @@ Site au Wild Tech 'Garden' du manif/teste au sons modules and sons thèmes
 
 ## Statut
 
-TBD
+[![pre-commit.ci
+statut](https://results.pre-commit.ci/badge/github/wildtechgarden/demo-test-site-hugo-wtg/main.svg)](https://results.pre-commit.ci/latest/github/wildtechgarden/demo-test-site-hugo-wtg/main)
 
 ## Site
 

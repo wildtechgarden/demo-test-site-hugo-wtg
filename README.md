@@ -4,7 +4,8 @@ Demo/test site for Wild Tech 'Garden' modules and themes
 
 ## Status
 
-TBD
+[![pre-commit.ci
+status](https://results.pre-commit.ci/badge/github/wildtechgarden/demo-test-site-hugo-wtg/main.svg)](https://results.pre-commit.ci/latest/github/wildtechgarden/demo-test-site-hugo-wtg/main)
 
 ## Site
 
