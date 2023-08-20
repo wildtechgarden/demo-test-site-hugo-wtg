@@ -1,0 +1,14 @@
+{
+	"extends": [
+		"html-validate:recommended",
+		"html-validate:document"
+	],
+	"root": true,
+	"rules": {
+		"attr-quotes": "off",
+		"doctype-style": "off",
+		"no-raw-characters": "off",
+		"require-sri": "off",
+		"wcag/h63": "off"
+	}
+}

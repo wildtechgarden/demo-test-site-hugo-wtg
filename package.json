@@ -1,0 +1,36 @@
+{
+  "name": "minimal-test-theme-hugo-dfd",
+  "version": "0.1.0",
+  "description": "Demo site for Wild Tech 'Garden' modules",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "pre-commit run --all-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://githug.com/wildtechgarden/demo-test-site-hugo-wtg.git"
+  },
+  "keywords": [
+    "computing",
+    "technology",
+    "hugo-module",
+    "website"
+  ],
+  "author": "Daniel F. Dickinson",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/wildtechgarden/demote-test-site-hugo-wtg/issues"
+  },
+  "homepage": "https://www.wtg-demos.ca/",
+  "devDependencies": {
+    "@cspell/dict-fr-fr": "^2.2.2",
+    "@cspell/dict-fr-reforme": "^2.2.2",
+    "cspell": "^7.0.0",
+    "cspell-cli": "^7.0.0",
+    "html-validate": "^7.18.1",
+    "tap-spot": "^1.1.2"
+  }
+}
