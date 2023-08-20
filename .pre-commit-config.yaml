@@ -50,8 +50,13 @@ repos:
   # - prevents addition of new git submodules.
   - id: mixed-line-ending
   # replaces or checks mixed line ending.
-  # - id: no-commit-to-branch # - don't commit to branch
-  #   args: [--branch, main, --branch, "v0.[0-9]"] # yamllint disable-line
+  - id: no-commit-to-branch # - don't commit to branch
+    args: [
+      --branch,
+      main,
+      --branch,
+      "v0.[0-9]" # yamllint disable-line
+    ]
   - id: pretty-format-json
     # - Checks that all your JSON files are pretty. "Pretty"
     # here means that keys are sorted and indented.
