@@ -13,12 +13,12 @@ timeout = "600s"
 
 [languages]
 [languages.fr]
-title = "Hugo site aux demos aux modules"
+title = "Hugo site aux manifs aux modules"
 weight = 10
 contentDir = "content/fr"
 
 [languages.fr.params]
-description = "Demo site aux modules du Wild Tech 'Garden' (WTG)"
+description = "Site manif aux modules du Wild Tech 'Garden' (WTG)"
 
 [languages.fr.menu]
 [[languages.fr.menu.main]]
@@ -231,3 +231,30 @@ lang = "en"
 source = "LICENSE"
 target = "content/doc/minimal-theme/LICENSE"
 lang = "fr"
+
+[[module.imports]]
+path = "github.com/wildtechgarden/module-starter-hugo-wtg"
+
+[[module.imports.mounts]]
+source = "static"
+target = "static"
+
+[[module.imports.mounts]]
+source = "layouts"
+target = "layouts"
+
+[[module.imports.mounts]]
+source = "data"
+target = "data"
+
+[[module.imports.mounts]]
+source = "assets"
+target = "assets"
+
+[[module.imports.mounts]]
+source = "i18n"
+target = "i18n"
+
+[[module.imports.mounts]]
+source = "archetypes"
+target = "archetypes"
