@@ -1,11 +1,11 @@
 +++
-title = "Hugo demo site for Wild Tech 'Garden' (WTG) modules"
+title = "Demo/test site for Wild Tech 'Garden' (WTG) modules"
 date = "2022-04-07T23:53:03Z"
 publishDate = "2022-04-07T23:53:03Z"
 author = "Daniel F. Dickinson"
 tags = []
 description = """\
-Demo site for Wild Tech 'Garden's (WTG) Hugo modules. \
+Demo/test site for Wild Tech 'Garden' modules and themes. \
 """
 layout = "single"
 +++
