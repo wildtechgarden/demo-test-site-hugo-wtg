@@ -1,4 +1,6 @@
-# Daniel F. Dickinson
+# WTG demo/test site
+
+Demo/test site for Wild Tech 'Garden' modules and themes
 
 ## Status
 
