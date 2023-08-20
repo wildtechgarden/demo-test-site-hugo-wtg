@@ -1,6 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
 	"dictionaries": [
+		"companies",
 		"project-words",
 		"project-words-fr"
 	],
@@ -37,7 +38,6 @@
 	"overrides": [
 		{
 			"dictionaries": [
-				"companies",
 				"html",
 				"css",
 				"softwareTerms",
@@ -52,7 +52,6 @@
 		},
 		{
 			"dictionaries": [
-				"companies",
 				"html",
 				"css",
 				"softwareTerms",
@@ -64,58 +63,34 @@
 			]
 		},
 		{
-			"dictionaries": [
-				"companies",
-				"softwareTerms",
-				"misc"
-			],
 			"filename": [
-				"./content/fr/*.md",
 				"./content/fr/**/*.md",
 				"./README.fr.md"
 			],
 			"ignoreRegExpList": [
 				"frontMatter"
 			],
+			"includeRegExpList": [
+				".*"
+			],
 			"language": "fr,fr-90"
 		},
 		{
-			"filename": [
-				"./content/fr/*.md",
-				"./content/fr/**/*.md",
-				"./README.fr.md"
-			],
-			"includeRegExpList": [
-				"frontMatter"
-			],
-			"language": "en,en-gb,fr,fr-90"
-		},
-		{
 			"dictionaries": [
-				"companies",
 				"softwareTerms",
 				"misc"
 			],
 			"filename": [
-				"./content/en/*.md",
 				"./content/en/**/*.md",
 				"./README.md"
 			],
 			"ignoreRegExpList": [
 				"frontMatter"
 			],
-			"language": "en,en-gb"
-		},
-		{
-			"filename": [
-				"./content/fr/*.md",
-				"./content/fr/**/*.md",
-				"./README.fr.md"
-			],
 			"includeRegExpList": [
-				"frontMatter"
+				".*"
 			],
-			"language": "en,en-gb,fr,fr-90"
+			"language": "en,en-gb"
 		},
 		{
 			"dictionaries": [
@@ -175,7 +150,7 @@
 	"patterns": [
 		{
 			"name": "frontMatter",
-			"pattern": "/^(-{3}|[+]{3})$(\\s|\\S)*?^\\1$/gm"
+			"pattern": "/^(-{3,}|[+]{3,})$[\\s\\S]*?^\\1/gm"
 		}
 	],
 	"version": "0.2"
