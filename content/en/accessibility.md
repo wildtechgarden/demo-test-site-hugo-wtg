@@ -5,6 +5,18 @@ date = "2021-10-15T05:57:11Z"
 publishDate = "2021-10-15T05:57:11Z"
 pageCanonical = false
 toCanonical = "https://www.wildtechgarden.ca/about/accessibility/"
+description = """\
+Wild Tech 'Garden makes their best \
+effort to keep this site accessible and inclusive. \
+If you find something that does not meet that goal, please use the \
+contact form on their main site to let them know.\
+"""
+summary = """\
+[Wild Tech 'Garden'](https://www.wildtechgarden.ca/about/) makes their best \
+effort to keep this site accessible and inclusive. If you find something that \
+does not meet that goal, please use the [contact form on their main \
+site](https://www.wildtechgarden.ca/about/contact/) to let them know.\
+"""
 +++
 
 ## Statement
@@ -12,7 +24,7 @@ toCanonical = "https://www.wildtechgarden.ca/about/accessibility/"
 [Wild Tech 'Garden'](https://www.wildtechgarden.ca/about/) makes their best
 effort to keep this site accessible and inclusive. If you find something that
 does not meet that goal, please use the [contact form on their main
-site](https://www.wildtechgarden.ca/about/contact/) to let him know.
+site](https://www.wildtechgarden.ca/about/contact/) to let them know.
 
 ## Goals
 
