@@ -19,6 +19,7 @@ goldmark
 hahahugo
 htmlvalidate
 lastmod
+muffet
 pageref
 rclone
 unminified
