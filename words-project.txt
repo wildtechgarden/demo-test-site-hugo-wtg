@@ -8,6 +8,7 @@ SITECONFIG
 SITEROOT
 SITESRC
 TDEWOLFF
+Werror
 Zgotmpl
 curdir
 dontbreakthebackbutton
@@ -18,6 +19,7 @@ goldmark
 hahahugo
 htmlvalidate
 lastmod
+muffet
 pageref
 rclone
 unminified
