@@ -1,7 +1,7 @@
 +++
 title = "Minimal theme"
-date = "2023-08-19T23:52:49Z"
-publishDate = "2023-08-19T23:52:49Z"
+date = 2023-08-19T23:52:49Z
+publishDate = 2023-08-19T23:52:49Z
 author = "Daniel F. Dickinson"
 tags = [
 	"module-docs"

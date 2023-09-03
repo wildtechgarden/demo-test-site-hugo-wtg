@@ -22,3 +22,5 @@ Démonstrations et testes de fonctionnalité des thèmes et modules par Wild Tec
 ### Module de démarrage
 
 {{< demo-module-starter >}}
+
+## Les pages du manifs
