@@ -1,7 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
 	"dictionaries": [
-		"companies",
 		"project-words",
 		"project-words-fr"
 	],
@@ -39,34 +38,43 @@
 	"overrides": [
 		{
 			"dictionaries": [
+				"companies",
 				"html",
 				"css",
 				"softwareTerms",
 				"misc"
 			],
 			"filename": [
-				"./layouts/**/*.html",
-				"./layouts/*.html",
+				"**/layouts/**/*.html",
+				"config.toml",
 				"hugo.toml",
-				"config.toml"
+				"theme.toml"
+			],
+			"language": "en,en-ca,en-gb,en-us,fr,fr-90"
+		},
+		{
+			"dictionaries": [
+				"companies",
+				"html",
+				"css",
+				"softwareTerms",
+				"misc"
+			],
+			"filename": [
+				"**/assets/**/*.{css,scss}",
+				"**/assets/*.{css,scss}"
 			]
 		},
 		{
 			"dictionaries": [
-				"html",
-				"css",
+				"companies",
 				"softwareTerms",
 				"misc"
 			],
 			"filename": [
-				"./assets/**/*.{css,scss}",
-				"./assets/*.{css,scss}"
-			]
-		},
-		{
-			"filename": [
-				"./content/fr/**/*.md",
-				"./README.fr.md"
+				"**/content/fr/**/*.md",
+				"**/docs/*.fr.md",
+				"**/README.fr.md"
 			],
 			"ignoreRegExpList": [
 				"frontMatter",
@@ -79,12 +87,34 @@
 		},
 		{
 			"dictionaries": [
+				"companies",
+				"css",
+				"html",
 				"softwareTerms",
 				"misc"
 			],
 			"filename": [
-				"./content/en/**/*.md",
-				"./README.md"
+				"**/content/fr/**/*.html"
+			],
+			"ignoreRegExpList": [
+				"frontMatter",
+				"hugoShortcode"
+			],
+			"includeRegExpList": [
+				".*"
+			],
+			"language": "fr,fr-90"
+		},
+		{
+			"dictionaries": [
+				"companies",
+				"softwareTerms",
+				"misc"
+			],
+			"filename": [
+				"**/content/en/**/*.md",
+				"**/docs/[^.]*.md",
+				"**/README.md"
 			],
 			"ignoreRegExpList": [
 				"frontMatter",
@@ -97,12 +127,23 @@
 		},
 		{
 			"dictionaries": [
+				"companies",
 				"css",
-				"html"
+				"html",
+				"softwareTerms",
+				"misc"
 			],
 			"filename": [
-				".htmlvalidate*.json"
-			]
+				"**/content/en/**/*.html"
+			],
+			"ignoreRegExpList": [
+				"frontMatter",
+				"hugoShortcode"
+			],
+			"includeRegExpList": [
+				".*"
+			],
+			"language": "en,en-ca,en-gb"
 		},
 		{
 			"dictionaries": [
@@ -110,9 +151,9 @@
 				"softwareTerms"
 			],
 			"filename": [
-				"./tests/scripts/*.sh"
+				"**/tests/scripts/*.sh"
 			],
-			"language": "en,en-ca,en-gb"
+			"language": "en,en-gb"
 		},
 		{
 			"dictionaries": [
@@ -120,7 +161,7 @@
 				"softwareTerms"
 			],
 			"filename": [
-				"./tests/scripts/*.ps1"
+				"**/tests/scripts/*.ps1"
 			],
 			"language": "en,en-ca,en-gb"
 		},
@@ -130,13 +171,8 @@
 				"project-words-fr"
 			],
 			"filename": [
-				"./config.toml",
-				"./hugo.toml",
-				"./theme.toml",
-				"./i18n/fr.toml",
-				"./hugo.toml",
-				"./.github/**/*.yml",
-				"./.pre-commit-config.yaml"
+				"**/i18n/fr.toml",
+				"**/.pre-commit-config.yaml"
 			],
 			"language": "en,en-ca,en-gb,fr,fr-90"
 		},
@@ -146,14 +182,14 @@
 				"project-words"
 			],
 			"filename": [
-				"./requirements.txt"
+				"**/requirements.txt"
 			]
 		}
 	],
 	"patterns": [
 		{
 			"name": "frontMatter",
-			"pattern": "/^(-{3,}|[+]{3,})$[\\s\\S]*?^\\1/gm"
+			"pattern": "/^(-{3}|[+]{3})$(\\s|\\S)*?^\\1$/gm"
 		},
 		{
 			"name": "hugoShortcode",

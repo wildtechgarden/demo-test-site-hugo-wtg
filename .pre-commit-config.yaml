@@ -7,7 +7,7 @@
 ci:
   autofix_prs: false
   autoupdate_branch: pre-commit-updates
-  submodules: true
+  submodules: false
 
 fail_fast: true
 minimum_pre_commit_version: 3.2.1
@@ -36,7 +36,7 @@ repos:
   # - ensures that links to vcs websites are permalinks.
   - id: check-yaml
   # - checks yaml files for parsable syntax.
-  # - id: destroyed-symlinks
+  - id: destroyed-symlinks
   # - detects symlinks which are changed to regular
   # files with a content of a path which that symlink was pointing to.
   - id: detect-private-key
@@ -61,22 +61,25 @@ repos:
     # - Checks that all your JSON files are pretty. "Pretty"
     # here means that keys are sorted and indented.
     args: [--autofix, --indent, "	"]
-    exclude: ^(package(-lock)?.json$)
+    exclude: ^(package(-lock)?.json$|cspell.json$)
   - id: trailing-whitespace
     exclude: ^(_vendor)
     args: [--markdown-linebreak-ext=md]
 
-- repo: "https://github.com/pre-commit/mirrors-csslint"
-  rev: v1.0.5
-  # See https://github.com/CSSLint/csslint
+- repo: "https://github.com/thibaudcolas/pre-commit-stylelint"
+  rev: v15.10.3
   hooks:
-  - id: csslint
-
-- repo: "https://github.com/pre-commit/mirrors-scss-lint"
-  rev: v0.60.0
-  # See https://github.com/causes/scss-lint
-  hooks:
-  - id: scss-lint
+  - id: stylelint
+    additional_dependencies:
+    - stylelint@^15.10.3
+    - stylelint-config-standard@^34.0.0
+    - stylelint-config-recommended@^13.0.0
+    - stylelint-order@^6.0.3
+    args:
+    - --config
+    - .stylelintrc.json
+    - --allow-empty-input
+    files: \.(css$)
 
 - repo: "https://github.com/igorshubovych/markdownlint-cli"
   rev: v0.35.0
@@ -98,7 +101,7 @@ repos:
     exclude: ^(_vendor)
 
 - repo: "https://github.com/zricethezav/gitleaks"
-  rev: v8.17.0
+  rev: v8.18.0
   hooks:
   - id: gitleaks
 
@@ -115,7 +118,7 @@ repos:
     exclude: ^(LICENSE$|README.md$|package(-lock)?.json$|_vendor)
 
 - repo: "https://github.com/streetsidesoftware/cspell-cli"
-  rev: v7.0.0
+  rev: v7.3.0
   hooks:
   - id: cspell
     additional_dependencies:

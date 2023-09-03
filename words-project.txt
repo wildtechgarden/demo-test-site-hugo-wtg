@@ -22,6 +22,7 @@ lastmod
 muffet
 pageref
 rclone
+stylelint
 unminified
 wcag
 wildtechgarden

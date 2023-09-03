@@ -1,6 +1,6 @@
 .git
 /public/
-/resources/
+resources/
 exampleSite/resources/
 exampleSite/public/
 node_modules
