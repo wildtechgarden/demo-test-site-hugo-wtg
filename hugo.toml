@@ -280,12 +280,10 @@ ignoreImports = true
 [[module.imports.mounts]]
 source = "README.md"
 target = "content/doc/minimal-theme/README.md"
-lang = "en"
 
 [[module.imports.mounts]]
 source = "README.fr.md"
-target = "content/doc/minimal-theme/README.md"
-lang = "fr"
+target = "content/doc/minimal-theme/README.fr.md"
 
 [[module.imports.mounts]]
 source = "docs"

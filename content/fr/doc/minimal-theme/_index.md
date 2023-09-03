@@ -8,11 +8,11 @@ tags = [
 ]
 description = """\
 Documentation au thème minimale du Wild Tech 'Garden'. Les informations \
-primaires en utiliser le thème minimale sont en le [README](README.md). \
+primaires en utiliser le thème minimale sont en le [README](README.fr.md). \
 """
 summary = """\
 Documentation au thème minimale du Wild Tech 'Garden'. Les informations \
-primaires en utiliser le thème minimale sont en le [README](README.md). \
+primaires en utiliser le thème minimale sont en le [README](README.fr.md). \
 """
 layout = "single"
 +++
@@ -20,11 +20,11 @@ layout = "single"
 ## Aperçu
 
 Documentation au thème minimale du Wild Tech 'Garden'. Les informations
-primaires en utiliser le thème minimale sont en le [README](README.md).
+primaires en utiliser le thème minimale sont en le [README](README.fr.md).
 
 ## Documentation primaire
 
-[README](README.md)  
+[README](README.fr.md)  
 
 ## Colophon
 
