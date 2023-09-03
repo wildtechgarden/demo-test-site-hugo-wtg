@@ -73,7 +73,6 @@ name = "Demos"
 pageRef = "/demo"
 weight = 50
 
-
 [params]
 issueReportUrl = "https://github.com/wildtechgarden/demo-test-site-hugo-wtg/issues/new"
 mainSections = ["demo","doc"]
@@ -233,6 +232,7 @@ target = "content/doc/a-wild-theme/LICENSE"
 
 [[module.imports]]
 path = "github.com/wildtechgarden/wild-theme-shell-mod-hugo"
+ignoreImports = true
 
 [[module.imports.mounts]]
 source = "static"
@@ -261,12 +261,10 @@ target = "archetypes"
 [[module.imports.mounts]]
 source = "README.md"
 target = "content/doc/wild-theme-shell/README.md"
-lang = "en"
 
 [[module.imports.mounts]]
 source = "README.fr.md"
-target = "content/doc/wild-theme-shell/README.md"
-lang = "fr"
+target = "content/doc/wild-theme-shell/README.fr.md"
 
 [[module.imports.mounts]]
 source = "LICENSE"

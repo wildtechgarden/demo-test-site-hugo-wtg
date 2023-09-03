@@ -9,12 +9,12 @@ tags = [
 description = """\
 Documentation au 'un coque thématique sauvage' par Wild Tech 'Garden'. \
 Les informations primaires en utiliser le thème sont en le \
-[README](README.md). \
+[README](README.fr.md). \
 """
 summary = """\
 Documentation au 'un coque thématique sauvage' par Wild Tech 'Garden'. \
 Les informations primaires en utiliser le thème sont en le \
-[README](README.md). \
+[README](README.fr.md). \
 """
 layout = "single"
 +++
@@ -23,11 +23,11 @@ layout = "single"
 
 Documentation au 'un coque thématique sauvage' par Wild Tech 'Garden'.
 Les informations primaires en utiliser le thème sont en le
-[README](README.md). \
+[README](README.fr.md). \
 
 ## Documentation primaire
 
-[README](README.md)  
+[README](README.fr.md)  
 
 ## Colophon
 
