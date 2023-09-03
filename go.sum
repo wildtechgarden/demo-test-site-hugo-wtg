@@ -1,8 +1,6 @@
-github.com/wildtechgarden/a-wild-theme-mod-hugo v0.0.0-20230902215558-84976149d676 h1:JfTVsFnBzlf9yvbVwD49yCjYXr/KGsPYmKMRFDWLTxM=
-github.com/wildtechgarden/a-wild-theme-mod-hugo v0.0.0-20230902215558-84976149d676/go.mod h1:gfpQu+fw63iu2i6Mh1TGUspIAsa5U9lTERAfX0okmwg=
-github.com/wildtechgarden/minimal-test-theme-hugo-wtg v0.5.4 h1:7EcVMyjqt/1HFqLsqODr5b1HBej3XynTVbt1RJYmQ1A=
-github.com/wildtechgarden/minimal-test-theme-hugo-wtg v0.5.4/go.mod h1:tcT4l0IHX8ifetQ3k/DQT3dqBeavIN6u/efkl7YCBlU=
-github.com/wildtechgarden/module-starter-hugo-wtg v0.0.0-20230824105525-d9f2e3b21695 h1:aEJdqLA7yjA+A2Ly3BPjP6Q9ZVzbA/y6z9rKidrcshs=
-github.com/wildtechgarden/module-starter-hugo-wtg v0.0.0-20230824105525-d9f2e3b21695/go.mod h1:aec+/6Y5Q88p+GODm1s1algZifaURulM86kDiCcoNa0=
-github.com/wildtechgarden/wild-theme-shell-mod-hugo v0.1.0-alpha.3 h1:0xXAPJ11Kx2hzCiha1Xvq0MT0fzrFlwKI6y5rPBOLos=
-github.com/wildtechgarden/wild-theme-shell-mod-hugo v0.1.0-alpha.3/go.mod h1:jL4+RbgWk3hJ4/ACHtsbgHqfFdPYkng4LPoVnO/m3g8=
+github.com/wildtechgarden/a-wild-theme-mod-hugo v0.1.0-alpha.2 h1:7oYHihvuKUSqHyEdIhxMLiDWxLUKamjwuTNaL7MuDe0=
+github.com/wildtechgarden/a-wild-theme-mod-hugo v0.1.0-alpha.2/go.mod h1:sMBPeIIeZ7XpWoLoVxmJf5QDfGbxqTzfayeRamKfARs=
+github.com/wildtechgarden/minimal-test-theme-hugo-wtg v0.5.5 h1:shuNeXytlk7MLuVPzme5weM/WKlsGO8u0CE4oIVNo/U=
+github.com/wildtechgarden/minimal-test-theme-hugo-wtg v0.5.5/go.mod h1:tcT4l0IHX8ifetQ3k/DQT3dqBeavIN6u/efkl7YCBlU=
+github.com/wildtechgarden/module-starter-hugo-wtg v0.0.0-20230903173910-7f7720e1166d h1:YEVpt4c2eTV6Mvou2C80zLkakdr1A7QivMwcJ4smji4=
+github.com/wildtechgarden/module-starter-hugo-wtg v0.0.0-20230903173910-7f7720e1166d/go.mod h1:aec+/6Y5Q88p+GODm1s1algZifaURulM86kDiCcoNa0=
