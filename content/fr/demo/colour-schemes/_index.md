@@ -14,10 +14,4 @@ summary = """\
 
 Échantillons de scheme de couleur.
 
-## Petites démos divers
-
-### Module de démarrage
-
-{{< demo-module-starter >}}
-
 ### Les pages du schemes de couleur

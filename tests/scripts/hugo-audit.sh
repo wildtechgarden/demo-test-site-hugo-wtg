@@ -12,7 +12,7 @@ fi
 if [ -n "$SITECONFIG" ]; then
 	SITECONFIG="--config ""$SITECONFIG"
 else
-	SITECONFIG="--config ""$(pwd)"/hugo.toml
+	export SITECONFIG="--config $(pwd)/hugo.toml,$(pwd)/site.toml"
 fi
 
 if [ -z "${HUGO_CACHEDIR}" ]; then

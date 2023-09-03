@@ -17,10 +17,4 @@ Démonstrations et testes de fonctionnalité des thèmes et modules par Wild Tec
 Démonstrations et testes de fonctionnalité des thèmes et modules par Wild Tech
 'Garden' (WTG)
 
-## Petites démos divers
-
-### Module de démarrage
-
-{{< demo-module-starter >}}
-
 ## Les pages du manifs

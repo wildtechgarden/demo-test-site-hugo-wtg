@@ -17,9 +17,7 @@ Example of the green light colour scheme.
 
 ## Small miscellaneous demos
 
-### Starter module
-
-{{< demo-module-starter >}}
+Some text.
 
 ### A table
 

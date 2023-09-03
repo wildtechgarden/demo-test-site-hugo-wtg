@@ -14,13 +14,11 @@ summary = """\
 cssColourScheme = "green-dark"
 +++
 
-Échantillon de the scheme de couleur foncée 'green' (vert).
+Échantillon du scheme du couleur foncée 'green' (vert).
 
 ## Petites démos divers
 
-### Module de démarrage
-
-{{< demo-module-starter >}}
+Quelque texte.
 
 ### Un tableau
 

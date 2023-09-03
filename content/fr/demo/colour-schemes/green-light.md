@@ -14,13 +14,11 @@ summary = """\
 cssColourScheme = "green-light"
 +++
 
-Échantillon de the scheme de couleur claire 'green' (vert).
+Échantillon du scheme du couleur claire 'green' (vert).
 
 ## Petites démos divers
 
-### Module de démarrage
-
-{{< demo-module-starter >}}
+Quelque texte.
 
 ### Un tableau
 

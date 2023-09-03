@@ -14,13 +14,11 @@ summary = """\
 cssColourScheme = "default"
 +++
 
-Échantillon de scheme de couleur 'default'.
+Échantillon du scheme du couleur 'default'.
 
 ## Petites démos divers
 
-### Module de démarrage
-
-{{< demo-module-starter >}}
+Quelque texte.
 
 ### Un tableau
 

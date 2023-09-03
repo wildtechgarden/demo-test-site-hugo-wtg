@@ -17,10 +17,4 @@ Demonstrations and tests of functionality of themes and modules by Wild Tech \
 Demonstrations and tests of functionality of themes and modules by Wild Tech
 'Garden' (WTG)
 
-## Small miscellaneous demos
-
-### Starter module
-
-{{< demo-module-starter >}}
-
 ## Demo pages

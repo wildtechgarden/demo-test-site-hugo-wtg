@@ -14,10 +14,4 @@ Samples of the colour schemes available.\
 
 Samples of the colour schemes available.
 
-## Small miscellaneous demos
-
-### Starter module
-
-{{< demo-module-starter >}}
-
 ## Colour scheme pages

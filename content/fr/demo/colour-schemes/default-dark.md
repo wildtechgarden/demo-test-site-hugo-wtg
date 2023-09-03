@@ -14,13 +14,11 @@ summary = """\
 cssColourScheme = "default-dark"
 +++
 
-Échantillon de scheme de couleur foncée 'default'.
+Échantillon du scheme du couleur foncée 'default'.
 
 ## Petites démos divers
 
-### Module de démarrage
-
-{{< demo-module-starter >}}
+Quelque texte.
 
 ### Un tableau
 
