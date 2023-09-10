@@ -20,7 +20,6 @@ jobs:
       uses: wildtechgarden/audit-build-action-hugo@main
       with:
         base-url: "https://example.com/"
-        config-file: hugo.toml
+        config-file: site.toml
         hugo-version: latest
-        source-directory: tests/config
 ...
