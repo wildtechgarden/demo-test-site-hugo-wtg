@@ -21,10 +21,11 @@ Some text.
 
 ### A table
 
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-| Cell 1    | Cell 2    |
-| Cell 3    | Cell 4    |
+| Heading 1 | Heading 2 | Heading 3 | Heading 4 |
+|-----------|-----------|-----------|-----------|
+| Cell 1    | Cell 2    |           |  Cell 4   |
+| Cell 5    | Cell 6    | Cell 7    |
+| Cell 9    | Cell 10   | Cell 11   | Cell 12   |
 
 ### Links
 

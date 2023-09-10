@@ -20,12 +20,13 @@ cssColourScheme = "green"
 
 Quelque texte.
 
-### Un tableau
+### Un table
 
-| Titre 1   | Titre 2   |
-|-----------|-----------|
-| Objet 1   | Objet 2   |
-| Objet 3   | Objet 4   |
+| Titre 1   | Titre 2   | Titre   3 | Titre   4 |
+|-----------|-----------|-----------|-----------|
+| Objet 1   | Objet 2   |           |  Objet 4  |
+| Objet 5   | Objet 6   | Objet 7   |
+| Objet 9   | Objet 10  | Objet 11  | Objet 12  |
 
 ### Liens
 
