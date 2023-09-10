@@ -1,0 +1,26 @@
+---
+# yamllint disable rule:key-ordering
+name: build-audit
+on: # yamllint disable-line
+  pull_request:
+    branches:
+    - main
+    types:
+    - assigned
+    - opened
+    - synchronize
+    - reopened
+jobs:
+  # yamllint disable rule:line-length
+  audit-only:
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run audit-build-action-hugo using config from tests/config
+      uses: wildtechgarden/audit-build-action-hugo@main
+      with:
+        base-url: "https://example.com/"
+        config-file: hugo.toml
+        hugo-version: latest
+        source-directory: tests/config
+...
