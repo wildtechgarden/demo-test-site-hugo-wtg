@@ -365,3 +365,31 @@ lang = "en"
 source = "content/fr/demo/module-starter"
 target = "content/demo/module-starter"
 lang = "fr"
+
+[[module.imports]]
+ignoreImports = true
+path = "github.com/wildtechgarden/audit-build-action-hugo"
+
+[[module.imports.mounts]]
+source = "content/en/doc/audit-build-action-hugo"
+target = "content/doc/audit-build-action-hugo"
+lang = "en"
+
+[[module.imports.mounts]]
+source = "content/fr/doc/audit-build-action-hugo"
+target = "content/doc/audit-build-action-hugo"
+lang = "fr"
+
+[[module.imports.mounts]]
+source = "README.md"
+target = "content/doc/audit-build-action-hugo/README.md"
+lang = "en"
+
+[[module.imports.mounts]]
+source = "README.fr.md"
+target = "content/doc/audit-build-action-hugo/README.md"
+lang = "fr"
+
+[[module.imports.mounts]]
+source = "LICENSE"
+target = "content/doc/audit-build-action-hugo/LICENSE"
