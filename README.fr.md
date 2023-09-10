@@ -6,6 +6,7 @@ Site au Wild Tech 'Garden' du manif/teste au sons modules and sons thèmes
 
 [![pre-commit.ci
 statut](https://results.pre-commit.ci/badge/github/wildtechgarden/demo-test-site-hugo-wtg/main.svg)](https://results.pre-commit.ci/latest/github/wildtechgarden/demo-test-site-hugo-wtg/main)
+[![build-audit](https://github.com/wildtechgarden/demo-test-site-hugo-wtg/actions/workflows/build-audit.yml/badge.svg)](https://github.com/wildtechgarden/demo-test-site-hugo-wtg/actions/workflows/build-audit.yml)
 
 ## Site
 
