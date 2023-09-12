@@ -1,0 +1,23 @@
+{{- $docs := .Page.Pages -}}
+{{- $hasREADME := false -}}
+{{- with $docs }}
+	{{- range . -}}
+		{{- if .Page.GetPage "readme" -}}
+			{{ $hasREADME = true -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}
+{{- if $hasREADME -}}
+	{{- with $docs }}
+<section>
+	<h2>{{ i18n "READMEs" }}</h2>
+	<ul>
+		{{- range . -}}
+			{{- with .Page.GetPage "readme" }}
+		<li><a href="{{ .RelPermalink }}">{{ partial "wtg-shell/helpers/find-page-title.html" . | safeHTML }}</a></li>
+			{{- end -}}
+		{{- end -}}
+	{{- end }}
+	</ul>
+</section>
+{{- end -}}

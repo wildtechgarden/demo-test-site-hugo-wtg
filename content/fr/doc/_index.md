@@ -13,3 +13,7 @@ Documentation des modules demontré au cette site. Nous inclusons le README du \
 module, son license, and les autres information.\
 """
 +++
+
+{{< readmes >}}
+
+## Les autres docs
