@@ -18,7 +18,7 @@ layout = "single"
 	* [Site manif à «Un thème sauvage» par WTG](https://www.a-wild-theme.wtg-demos.ca/fr/)
 	* [Hugo site aux manifs aux module de démarrage](https://www.module-starter.wtg-demos.ca/fr/)
 	* [Échantillon de actionne créer-auditer de Hugo á GitHub](https://www.audit-build-action-default.wtg-demos.ca/fr/)
-	* [Échantillon de actionne vérifier-html de Hugo á GitHub](https://www.validator-html-action-default.wtg-demos.ca/fr/)
+	* [Échantillon de actionne vérifier-html de Hugo á GitHub](https://www.validator-html-action.wtg-demos.ca/fr/)
 * Ancienne pile technologique
 	* [DFD-Zen thème au Hugo](https://www.zen-theme-hugo-wtg.wtg-demos.ca/)
 	* [Module du faire images au Hugo](https://www.image-handling-mod.wtg-demos.ca/)
