@@ -17,7 +17,8 @@ layout = "single"
 	* ['Wild' theme shell for Hugo by WTG](https://www.wild-theme-shell.wtg-demos.ca/)
 	* [Demo site for 'A wild theme' by WTG](https://www.a-wild-theme.wtg-demos.ca/)
 	* [Hugo demo site for WTG module starter](https://www.module-starter.wtg-demos.ca/)
-	* [Hugo demo site for build-audit action](https://www.audit-build-action-default.wtg-demos.ca/)
+	* [Hugo demo site for build-audit GitHub Action](https://www.audit-build-action-default.wtg-demos.ca/)
+	* [Hugo demo site for validator-html GitHub Action](https://www.validator-html-action-default.wtg-demos.ca/)
 * Old tech stack
 	* [DFD-Zen theme for Hugo](https://www.zen-theme-hugo-wtg.wtg-demos.ca/)
 	* [Image handling module for Hugo](https://www.image-handling-mod.wtg-demos.ca/)
