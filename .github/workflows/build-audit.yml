@@ -23,7 +23,6 @@ jobs:
         build-for-downstream: true
         config-file: site.toml
         hugo-version: latest
-        source-directory: tests/config
     - name: Validate HTML and CSS of website
       uses: wildtechgarden/validator-html-action@main
       with:
