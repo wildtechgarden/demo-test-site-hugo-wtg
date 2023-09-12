@@ -15,11 +15,18 @@ jobs:
   audit-only:
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Run audit-build-action-hugo using config from tests/config
       uses: wildtechgarden/audit-build-action-hugo@main
       with:
         base-url: "https://example.com/"
+        build-for-downstream: true
         config-file: site.toml
         hugo-version: latest
+        source-directory: tests/config
+    - name: Validate HTML and CSS of website
+      uses: wildtechgarden/validator-html-action@main
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        use-existing-workspace: "true"
 ...
