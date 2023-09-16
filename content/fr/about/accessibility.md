@@ -3,7 +3,6 @@ title = "Accessibilité"
 author = "Daniel F. Dickinson"
 date = "2021-10-15T05:57:11Z"
 publishDate = "2021-10-15T05:57:11Z"
-pageCanonical = false
 description = """\
 Wild Tech 'Garden' fait de leur mieux \
 pour garder ce site accessible et inclusif. Si vous trouvez quelque chose qui \
