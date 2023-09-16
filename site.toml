@@ -114,6 +114,19 @@ render = 'always'
 [cascade._target]
 path = "/doc/{wild-theme-shell,a-wild-theme,minimal-theme}/**"
 
+[[cascade]]
+omitFromFeeds = true
+[cascade._target]
+kind = "taxonomy"
+
+[[cascade]]
+omitFromFeeds = true
+[cascade._target]
+kind = "term"
+
+# We don't need to specify pageCanonical = true for this site because being
+# canonical is the default
+
 [markup]
 [markup.goldmark]
 [markup.goldmark.renderer]
