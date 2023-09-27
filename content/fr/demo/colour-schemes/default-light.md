@@ -30,6 +30,6 @@ Quelque texte.
 
 ### Liens
 
-[Example.com](https://example.com/never-visited)
+[Example.com](https://example.com/)
 
 [Cette Site](/)

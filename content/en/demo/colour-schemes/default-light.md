@@ -29,6 +29,6 @@ Some text.
 
 ### Links
 
-[Example.com](https://example.com/never-visited)
+[Example.com](https://example.com/)
 
 [Homepage](/)
