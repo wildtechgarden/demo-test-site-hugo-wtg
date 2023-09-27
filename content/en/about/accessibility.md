@@ -43,5 +43,5 @@ everything relevant that there is to say. That is a longer term project.
 
 [We never open links in new tabs, use the "Open link in new tab" function of
 your browser if you want
-that](https://www.wildtechgarden.ca/blog/accessible-design-no-blank/).
+that](https://www.danielfdickinson.ca/blog/accessible-design-no-blank/).
 ([#dontbreakthebackbutton](https://www.linkedin.com/feed/hashtag/?keywords=dontbreakthebackbutton))

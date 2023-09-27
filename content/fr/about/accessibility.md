@@ -47,5 +47,5 @@ disant tout ce que je veux dire. C'est un projet à plus long terme.
 
 [Nous n'ouvrons jamais de liens dans de nouveaux onglets, utilisez "Ouvrir le
 lien dans un nouvel onglet" dans votre navigateur si vous le
-souhaitez](https://www.wildtechgarden.ca/blog/accessible-design-no-blank/).
+souhaitez](https://www.danielfdickinson.ca/blog/accessible-design-no-blank/).
 ([#dontbreakthebackbutton](https://www.linkedin.com/feed/hashtag/?keywords=dontbreakthebackbutton))
