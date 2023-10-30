@@ -12,7 +12,7 @@ fi
 if [ -n "$SITECONFIG" ]; then
 	SITECONFIG="--config ""$SITECONFIG"
 else
-	export SITECONFIG="--config $(pwd)/hugo.toml,$(pwd)/site.toml"
+	export SITECONFIG="--config $(pwd)/hugo.toml,$(pwd)/tests/config/demo-site.toml"
 fi
 
 if [ -z "${HUGO_CACHEDIR}" ]; then
@@ -25,7 +25,7 @@ rm -rf "${SITEROOT}/public"
 echo "Building for audit in ${SITEROOT}/public for environment ${HUGO_ENV:-development}"
 
 # shellcheck disable=2086
-if HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true HUGO_RESOURCEDIR="$(pwd)/resources" "$HUGO_COMMAND" $SITECONFIG --gc --buildDrafts --buildFuture --source "${SITEROOT}" --destination "${SITEROOT}/public" --environment "${HUGO_ENV:-development}" ${BASEURL:+-b $BASEURL} && [ -s "${SITEROOT}/public/index.html" ]; then
+if HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true HUGO_RESOURCEDIR="$(pwd)/resources" "$HUGO_COMMAND" $SITECONFIG --gc --buildDrafts --buildFuture --source "${SITEROOT}/tests/config" --destination "${SITEROOT}/public" --environment "${HUGO_ENV:-development}" ${BASEURL:+-b $BASEURL} && [ -s "${SITEROOT}/public/index.html" ]; then
 	# If hugo build succeeds, it is possible audit issues are present, check further
 	# Check for problem indicators (see https://discourse.gohugo.io/t/audit-your-published-site-for-problems/35184)
 	set +e
@@ -55,7 +55,7 @@ if HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true HUGO_ENABLEMISSINGTRANSLATIONPLAC
 	rm -rf "${SITEROOT}/public"
 	echo "Building unminified site for checks in ${SITEROOT}/public for environment ${HUGO_ENV:-development}"
 	# Build unminified site without audit-only information
-	if HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=false HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=false HUGO_RESOURCEDIR="$(pwd)/resources" "$HUGO_COMMAND" $SITECONFIG --gc --buildDrafts --buildFuture --source "${SITEROOT}" --destination "${SITEROOT}"/public --environment "${HUGO_ENV:-development}" ${BASEURL:+-b $BASEURL} >hugo-build-unminified.log; then
+	if HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=false HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=false HUGO_RESOURCEDIR="$(pwd)/resources" "$HUGO_COMMAND" $SITECONFIG --gc --buildDrafts --buildFuture --source "${SITEROOT}/tests/config" --destination "${SITEROOT}"/public --environment "${HUGO_ENV:-development}" ${BASEURL:+-b $BASEURL} >hugo-build-unminified.log; then
 		if [ -s "${SITEROOT}/public/index.html" ]; then
 			set +e
 			grep -InE '(WARN [0-9:/\ ]+ FAIL: )' hugo-build-unminified.log

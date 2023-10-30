@@ -48,7 +48,7 @@
 				"**/layouts/**/*.html",
 				"config.toml",
 				"hugo.toml",
-				"site.toml",
+				"demo-site.toml",
 				"theme.toml"
 			],
 			"language": "en,en-ca,en-gb,en-us,fr,fr-90"

@@ -179,44 +179,36 @@ disabled = true
 
 [module]
 [[module.mounts]]
-source = "static"
+source = "../../static"
 target = "static"
 
 [[module.mounts]]
-source = "layouts"
+source = "../../layouts"
 target = "layouts"
 
 [[module.mounts]]
-source = "data"
+source = "../../data"
 target = "data"
 
 [[module.mounts]]
-source = "assets"
+source = "../../assets"
 target = "assets"
 
 [[module.mounts]]
-source = "i18n"
+source = "../../i18n"
 target = "i18n"
 
 [[module.mounts]]
-source = "archetypes"
+source = "../../archetypes"
 target = "archetypes"
 
 [[module.mounts]]
-source = "layouts"
-target = "layouts"
-
-[[module.mounts]]
-source = "i18n"
-target = "i18n"
-
-[[module.mounts]]
-source = "content/en"
+source = "../../content/en"
 target = "content"
 lang = "en"
 
 [[module.mounts]]
-source = "content/fr"
+source = "../../content/fr"
 target = "content"
 lang = "fr"
 

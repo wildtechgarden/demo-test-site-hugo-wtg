@@ -21,8 +21,9 @@ jobs:
       with:
         base-url: "https://example.com/"
         build-for-downstream: true
-        config-file: site.toml
+        config-file: demo-site.toml
         hugo-version: latest
+        source-directory: tests/config
     - name: Validate HTML and CSS of website
       uses: wildtechgarden/validator-html-action@main
       with:
